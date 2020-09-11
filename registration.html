@@ -37,18 +37,22 @@
         </tr>
         
         <tr>
-          <td colspan="2">
-            Login as
-            <select name="drpLoginType" id="drpLoginType">
-              <option value="Personal Use">Guest</option>
-              <option value="For the Class">Admin</option>
-              <option value="SuperUser">Super &nbsp;&nbsp;&nbsp;&nbsp; User</option>
-              <option value="Business Owner">Business Owner</option>
-            </select>
+          <td>Used for</td>
+          <td>
+            <input type="radio" 
+                   id="loginType" 
+                   name="loginType"
+                   value = "Student"
+                   selected="selected"/>
+            <label for="loginType">Guest</label>
             
+            <input type="radio"
+                   id="loginType"
+                   name="loginType"
+                   value="Teacher"/>
+            <label for="loginType">Admin</label>            
           </td>
         </tr>
-        
         
         <tr>
           <td colspan="2" align="right">
