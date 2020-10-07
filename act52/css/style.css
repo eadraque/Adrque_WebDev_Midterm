@@ -5,7 +5,7 @@
 } 
 body 
 {
-	background-color: pink;
+	background-color: navy blue;
 	padding: 0px;
     margin: 0px;
     font-size: 20px;
@@ -74,7 +74,7 @@ body
 }
 
 .flex-container div:first-child div:nth-last-child(3) {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 
@@ -111,11 +111,11 @@ body
 
 
 input:invalid {
-    border: solid 1px #e97272;
+    border: solid 1px #aee6c6;
 }
 
 input:valid {
-    border: solid 1px #8de6af;
+    border: solid 1px #57b4f2;
 }
 
 .reset, .create {
@@ -126,23 +126,23 @@ input:valid {
 .reset {
     color: #f0d71f;
     cursor: pointer;
-    border: solid 1px #3e4bde;
+    border: solid 1px #e991ed;
 	
 }
 
 .reset:hover {
     color: #FFF;
-    background-color: #f14d4d;
+    background-color: #b55b7a;
 }
 
 .create {
     color: #f0d71f;
     cursor: pointer;
-    border: solid 1px #40f37c;
+    border: solid 1px #048bbd;
     
 }
 
 .create:hover {
     color: #FFF;
-    background-color: #40f37c;
+    background-color: #ca7fe3;
 }
